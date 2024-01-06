@@ -1,6 +1,6 @@
 import numpy as np
 import cvxpy as cp
-import tqdm
+from tqdm.auto import tqdm
 
 def GetPriceData(basePrice, nWeeks, weekdayCsvName, weekendCsvName):
     #basePrice : float
