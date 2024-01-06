@@ -81,7 +81,7 @@ if __name__ == "__main__":
     plt.xlabel('Time (hr)')
     plt.xlim([0, 7*24])
     plt.ylabel('Grid supply (kW)')
-    plt.savefig('AlphaParameterVariations.png')
+    plt.savefig('Assets/AlphaParameterVariations.png')
     
     ## Open Loop vs MPC comparison
     
@@ -106,4 +106,4 @@ if __name__ == "__main__":
     plt.xlabel('Time (hr)')
     plt.xlim([0, 7*24])
     plt.ylabel('Grid supply (kW)')
-    plt.savefig('openLoopVsMPC.png')
+    plt.savefig('Assets/openLoopVsMPC.png')

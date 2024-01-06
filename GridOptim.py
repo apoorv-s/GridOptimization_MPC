@@ -74,7 +74,7 @@ if __name__ == "__main__":
     ax.set_ylabel('Demand (kW)', color = 'tab:red')
     ax2.set_ylabel('Prices ($/kWh)', color = 'blueviolet')
     ax.set_xlim([0, nTimeSteps/2])
-    plt.savefig('Demand_Prices.png')
+    plt.savefig('Assets/DemandPrices.png')
     
     ## House Energy Demands
     fig, axs = plt.subplots(2, 2, figsize = (10,5), dpi = 200)
@@ -137,7 +137,7 @@ if __name__ == "__main__":
     axs[1,0].set_title('Weekday, House #3')
     axs[1,1].set_title('Weekend, House #3')
 
-    plt.savefig('HouseEnergyDemands.png')
+    plt.savefig('Assets/HouseEnergyDemands.png')
     
     ## Battery Dynamics
     fig, axs = plt.subplots(2,2, figsize = (10,5), dpi = 200)
@@ -222,4 +222,4 @@ if __name__ == "__main__":
     axs[1,0].set_title('Weekday, House #3')
     axs[1,1].set_title('Weekend, House #3')
 
-    plt.savefig('BatteryDynamics.png')
+    plt.savefig('Assets/BatteryDynamics.png')
